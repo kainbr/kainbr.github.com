@@ -34,7 +34,7 @@ article::before {
 article::after {
   content: '\2775';
   position: relative;
-  top: 0px;
+  top: 5px;
   left: -30px;
   color: #ff7372;
   font-size: 34px;
