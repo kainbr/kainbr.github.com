@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>Kai Neubauer</title>
 </head>
@@ -21,14 +22,14 @@
             Brefeld</a>.
           My research focuses on machine learning problems in educational applications, such as adaptive learning and
           adaptive testing.
-          Technically, I am interested in deep learning and variational Bayesian methods, particularly
+          Technically, I am interested in deep learning and variational Bayesian methods such as
           Expectation Propagation.
           <br><br>
           I am currently working on the <a href="https://alee.leuphana.de/">ALEE research project</a>, which explores
           adaptive learning for economics in German
           schools.
           Having developed an initial prototype that employs online machine learning approaches for knowledge
-          tracing and instructional policy, we are now working on refining the overall platform.
+          tracing and instructional policy, we are now working on refining the overall adaptive learning platform.
           <br><br>
           Feel free to <a href="mailto:moin@kaineubauer.de">email me</a> or connect with me on <a
             href="https://www.linkedin.com/in/knbr/">LinkedIn</a>.
@@ -108,23 +109,19 @@
     border: 4px solid #ff7372;
     color: #ff7372;
     display: inline-block;
-    /* position: absolute; */
-    top: 10px;
-    left: 90px;
-    margin-bottom: 10px;
   }
 
   .container {
-    margin: 10px auto 0;
-    width: 700px;
-    padding: 50px 12px 50px;
+    margin: 0px auto 0;
+    max-width: 790px;
+    padding: 50px 12px 10px;
     overflow: auto;
-    box-sizing: content-box;
-    /* Reverting to default to ensure width remains exactly 700px */
+    box-sizing: border-box;
   }
 
   article {
-    padding: 60px;
+    padding: 50px;
+    padding-left: 110px;
   }
 
   article::before {
