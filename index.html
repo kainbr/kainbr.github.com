@@ -113,15 +113,22 @@
 
   .container {
     margin: 0px auto 0;
-    max-width: 790px;
+    max-width: 760px;
     padding: 50px 12px 10px;
     overflow: auto;
     box-sizing: border-box;
   }
 
   article {
-    padding: 50px;
-    padding-left: 110px;
+    padding: 40px;
+    padding-left: 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    article {
+      padding: 30px;
+      padding-left: 40px;
+    }
   }
 
   article::before {
